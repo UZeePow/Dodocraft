@@ -14,9 +14,7 @@ public class ModItems {
 
     // Create an item called "_" (must be all lowercase)
     // Supplier creates new item ( () -> new... )
-    public static final RegistryObject<Item> OIL = ITEMS.register("oil",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
-    public static final RegistryObject<Item> GASOLINE = ITEMS.register("gasoline",
+    public static final RegistryObject<Item> OIL = ITEMS.register("crystal",
             () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
 
     // Register items
