@@ -1,3 +1,9 @@
 {
-  "item.kenacraft.crystal": "Crystal"
+  "item.kenacraft.crystal": "Crystal",
+
+  "block.kenacraft.crystal_block": "Block of Crystal",
+  "block.kenacraft.crystal_ore": "Crystal Ore",
+  "block.kenacraft.deepslate_crystal_ore": "Deepslate Crystal Ore",
+
+  "itemGroup.kenatab": "KenaCraft"
 }

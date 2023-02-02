@@ -1,6 +1,5 @@
 package net.uzee.kenacraft.item;
 
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -14,8 +13,8 @@ public class ModItems {
 
     // Create an item called "_" (must be all lowercase)
     // Supplier creates new item ( () -> new... )
-    public static final RegistryObject<Item> OIL = ITEMS.register("crystal",
-            () -> new Item(new Item.Properties().tab(CreativeModeTab.TAB_MISC)));
+    public static final RegistryObject<Item> CRYSTAL = ITEMS.register("crystal",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.KENA_TAB)));
 
     // Register items
     public static void register(IEventBus eventBus) {
